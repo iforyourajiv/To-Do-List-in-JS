@@ -1,0 +1,39 @@
+body {
+    background-color: lavenderblush;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 44px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#taskheading {
+    font-size: 35px;
+    color: Red;
+}
+
+#doneheading {
+    font-size: 35px;
+    color: Green;
+}
+
+input {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 6px solid cadetblue;
+    font-size: 18px;
+    font-family: comic sans ms;
+}
+
+#addbtn {
+    padding: 15px;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 14px;
+}
+
+#showtask {}
