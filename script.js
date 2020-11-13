@@ -5,10 +5,15 @@ var completed = [];
 // Function That will Add Task On Global Task Array
 function addtask() {
     var taskname = document.getElementById("task").value;
-    task.push(taskname);
-    document.getElementById("task").value = "";
+    if (taskname == "") {
+        document.getElementById("status").innerHTML = "Plz Enter Some task";
+    } else {
+        document.getElementById("status").innerHTML = "";
+        task.push(taskname);
+        document.getElementById("task").value = "";
+        displayTask();
 
-    displayTask();
+    }
 
 
 }
